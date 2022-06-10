@@ -5,12 +5,24 @@
 .form button {
   font: inherit;
   cursor: pointer;
-  background-color: #8a2b06;
+  /* background: rgb(74,49,12); */
+  background: radial-gradient(circle, rgb(122, 74, 1) 6%, rgba(77, 47, 29, 0.929) 81%);
+  
   border: 1px solid #8a2b06;
   color: white;
   padding: 0.35rem 2.5rem;
   border-radius: 20px;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+  .form button {
+    padding: 0.35rem 1.5rem;
+  }
+
+  .form {
+    text-align: center;
+  }
 }
 
 .form button:hover,
