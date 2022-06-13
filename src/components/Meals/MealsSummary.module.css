@@ -5,7 +5,8 @@
   margin: auto;
   margin-top: -10rem;
   position: relative;
-  background-color: #383838;
+  background: rgb(126,85,23);
+background: radial-gradient(circle, rgba(126,85,23,0.9694075732899023) 21%, rgba(88,42,15,0.9889515472312704) 81%);
   color: white;
   border-radius: 14px;
   padding: 1rem;

@@ -12,6 +12,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #323232;
+  background: rgb(88,42,15);
+  background: radial-gradient(circle, rgba(88,42,15,0.85123167752443) 21%, rgba(56,56,56,1) 81%);
 }
 

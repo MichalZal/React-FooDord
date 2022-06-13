@@ -16,3 +16,9 @@
   font: inherit;
   padding-left: 0.5rem;
 }
+
+@media only screen and (max-width: 500px) {
+  .input input {
+    width: 2rem;
+  }
+}
