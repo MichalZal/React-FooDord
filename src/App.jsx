@@ -8,7 +8,8 @@ const App = () => {
         const showCartHandler = () => {
 		setCartIsVisible(true);
 	};
-	const hideCartHandler = () => {
+	
+        const hideCartHandler = () => {
 		setCartIsVisible(false);
 	};
 
