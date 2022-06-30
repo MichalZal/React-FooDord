@@ -5,11 +5,12 @@ import Cart from "./components/Cart/Cart";
 
 const App = () => {
 	const [cartIsVisible, setCartIsVisible] = useState(false);
-        const showCartHandler = () => {
+	
+  const showCartHandler = () => {
 		setCartIsVisible(true);
 	};
 	
-        const hideCartHandler = () => {
+  const hideCartHandler = () => {
 		setCartIsVisible(false);
 	};
 

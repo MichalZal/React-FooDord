@@ -5,10 +5,47 @@
   animation: meals-appear 1s ease-out forwards;
 }
 
+.MealsLoading  {
+  text-align: center;
+  color: black;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  max-width: 60rem;
+  margin: 0 auto;
+  animation: show 1s ease-out forwards;
+  margin-top: 10rem;
+}
+
+.MealsError  {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  max-width: 60rem;
+  margin: 0 auto;
+  animation: show 1s ease-out forwards;
+  margin-top: 10rem;
+}
+
 .meals ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 0.7;
+    transform: translateY(0);
+  }
 }
 
 @keyframes meals-appear {
