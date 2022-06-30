@@ -4,7 +4,7 @@
 
 ### Its only UI build in React. In the future it will be upgraded with typescript next and some others. 
 
-run ```'npm i'``` to install packages and the npm run start to start the applcation. Then create Firebase backend and link it into the places where request are sent. 
+run ```npm i``` to install packages and the npm run start to start the applcation. Then create Firebase backend and link it into the places where request are sent. 
 
 
 
